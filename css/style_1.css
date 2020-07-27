@@ -1,0 +1,14 @@
+h4{
+	margin: 0;
+}
+
+.key{
+	font-weight: bold;
+	padding-right:0.2rem;
+}
+.value{
+	padding-right:1.5rem;
+}
+.first{
+	padding-bottom:10px;
+}

@@ -1,0 +1,31 @@
+body{
+	height: 710px;
+	width: 900px;
+}
+h4{
+	margin: 0;
+}
+.key{
+	font-weight: bold;
+	padding-right:0.2rem;
+}
+.value{
+	padding-right:1.5rem;
+}
+.first{
+	padding-bottom:10px;
+}
+.head{
+	float: left;
+	width: 28%;
+	height: 100%;
+	background-color: #72a0d6;
+	margin-right: 1rem;
+	text-align: center;
+	font-size: 32px;
+	color: white;
+}
+.main{
+	
+	float: left;
+}
