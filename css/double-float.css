@@ -1,0 +1,20 @@
+.wrapper{
+	padding: 15px 20px;
+	border: 1px dashed green;
+	overflow: auto;
+}
+.left,.right{
+	height: 500px;
+	box-sizing: border-box;
+	float: left;
+}
+.left{
+	/*width:30%;*/
+	width: calc(100% - 240px);
+	border: 1px solid red;
+}
+.right{
+	/*width: 70%;*/
+	width: 240px;
+	border: 1px solid blue;
+}

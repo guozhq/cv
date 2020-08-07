@@ -1,0 +1,110 @@
+a:link{
+	color: white;
+}
+/* 头 */
+.header{
+	height: 60px;
+	background: #333333;
+}
+.header-content{
+	width: 960px;
+	margin:0 auto;
+	padding: 8px 0;
+	color: #eeeeee;
+}
+.logo{
+	line-height: 40px;
+	font-size: 18px;
+	float: left;
+}
+.link{
+	float: right;
+}
+/* 轮播图 */
+.banner{
+	height: 300px;
+	background: #66bb33;
+}
+.banner-content{
+	margin: 0 auto;
+	width: 960px;
+	height: 300px;
+	color: #eeeeee;
+	position: relative;
+}
+.num{
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+}
+.num span{
+	display: inline-block;
+	vertical-align: bottom;
+	width: 18px;
+	height: 23px;
+	border: 1px solid black;
+	text-align: center;
+	line-height: 23px;
+	color: black;
+	background: #ffffffd9;
+}
+.num .active{
+	background: white;
+	height: 35px;
+	line-height: 47px;
+}
+/* 主导航 */
+.nav{
+	height: 50px;
+	border-bottom: 1px solid #66666640;
+}
+.nav-button{
+	width: 960px;
+	height: 50px;
+	margin: 0 auto;
+	position: relative;
+}
+.nav-button .btn{
+	position: absolute;
+	bottom: 0;
+}
+.nav-button span{
+	margin:0 -6px -1px 0;
+	display: inline-block;
+	padding: 10px 25px;
+	background: #eeeeee;
+	border: 1px solid #66666640;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.btn .active{
+	background: white;
+	border-bottom: 1px solid white;
+}
+/* 内容区域 */
+.main{
+	width: 960px;
+	margin: 10px auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.row span{
+	padding: 70px;
+	border: 1px solid #66666640;
+	margin: 0 10px 10px 0;
+	flex: 1;
+	text-align: center;
+}
+
+/* 底部 */
+.footer{
+	height: 100px;
+	background: #666666;
+}
+.footer-content{
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+}

@@ -1,0 +1,21 @@
+.wrapper{
+	padding: 15px 20px;
+	border: 1px dashed green;
+	display: flex;
+}
+.left, .middle, .right{
+	height: 500px;
+}
+.left{
+	/*width: 30%;*/
+	width: 240px;
+	border: 1px solid red;
+}
+.middle{
+	flex: 1 1 auto;
+	border: 1px solid pink;
+}
+.right{
+	flex: 1 1 auto;
+	border: 1px solid blue;
+}
