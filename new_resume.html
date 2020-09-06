@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>简历</title>
+	<link rel="stylesheet" href="css/style_3.css" id="link">
+</head>
+<body>
+	<button id="editLink1">简历1</button>
+	<button id="editLink2">简历2</button>
+	<button id="editLink3">简历3</button>
+	<div class="head">
+		<h1>简历</h1>
+	</div>
+	<div class="main">
+		<div class="info">
+			<div class="title">
+				<h2>基本信息</h2>
+			</div>
+			<div class="content">
+				<span class="key">姓名</span>
+				<span class="value">张三</span>
+				<span class="key">性别</span>
+				<span class="value">男</span>
+				<span class="key">应聘职位</span>
+				<span class="value">Web前端工程师</span>
+			</div>
+		</div>
+		<div class="info">
+			<div class="title">
+				<h2>联系方式</h2>
+		    </div>
+		    <div class="content">
+				<span class="key">手机</span>
+				<span class="value">12312341234</span>
+				<span class="key">Email</span>
+				<span class="value"><a href="#">xxxxxx@xxxx.com</a></span>
+				<span class="key">个人主页</span>
+				<span class="value"><a href="#">Github</a></span>
+			</div>
+		</div>
+		<div class="info">
+			<div class="title">
+				<h2>能力描述</h2>
+			</div>
+			<div class="content">
+				<div class="item first">
+					<h4 class="key">技术能力</h4>
+					<span class="value">熟练掌握HTML,CSS,JavaScript</span>
+				</div>
+				<div class="item">
+					<h4 class="key">综合能力</h4>
+					<span class="value">良好的沟通，主动积极，努力勤奋</span>
+				</div>
+			</div>
+		</div>
+		<div class="info">
+			<div class="title">
+				<h2>教育经历</h2>
+			</div>
+			<div class="content">
+				<div class="item first">
+					<h4 class="key">本科</h4>
+					<span class="value">xxxx学院</span>
+				</div>
+				<div class="item">
+					<h4 class="key">研究生</h4>
+					<span class="value">xxx学院</span>
+				</div>
+			</div>
+		</div>
+		<div class="info">
+			<div class="title">
+				<h2>项目经历</h2>
+			</div>
+			<div class="content">
+				<div class="item first">
+					<h4 class="key">小易小易</h4>
+					<span class="value">作为前端工程师角色参与了ABC组件的开发</span>
+				</div>
+				<div class="item">
+					<h4 class="key">SAN Doc</h4>
+					<span class="value">作为文档工程师参与了SAN Doc编写</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		document.getElementById("editLink1").onclick = function() {
+			document.getElementById("link").href="css/style_1.css";
+		}
+		document.getElementById("editLink2").onclick = function() {
+			document.getElementById("link").href="css/style_2.css";
+		}
+		document.getElementById("editLink3").onclick = function() {
+			document.getElementById("link").href="css/style_3.css";
+		}		
+	</script>
+</body>
+</html>
